@@ -28,7 +28,7 @@ if "%k%"=="" goto :selMenu
 :match
 cd C:\Program Files (x86)\SG Games\GameZoom Setup\GZ\dataSave
 cls
-echo ===== Match Maker =====
+echo ===== Game Match Maker =====
 echo.
 echo [1 / 2]: Set Match Name.
 echo.
@@ -36,7 +36,7 @@ set /p txt=
 echo matName = %txt% > dataSave\match1.sav
 
 cls
-echo ===== Match Maker =====
+echo ===== Game Match Maker =====
 echo.
 echo [2 / 2]: Set Match Difficulty.
 echo.
@@ -45,7 +45,7 @@ if "%txt%"=="Easy" (echo matDiff = %txt% >> (dataSave\match1.sav)
 if "%txt%"=="Hard" (echo matDiff = %txt% >> (dataSave\match1.sav)
 
 cls
-echo ===== Match Maker =====
+echo ===== Game Match Maker =====
 echo.
 echo Match ready! Start match now? [Y/N]
 echo.
