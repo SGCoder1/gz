@@ -5,7 +5,7 @@ timeout /t 3 /nobreak >nul
 
 :main
 cls
-echo Game Zoom [V1.1.23ADP]
+echo Game Zoom [V1.1]
 echo.
 echo Start [S]
 echo Exit [E]
